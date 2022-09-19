@@ -65,7 +65,6 @@ test('URL /favorites, ao clicar no link Favorite Pokémons da barra de navegaç�
 
 test('página Not Found ao entrar em uma URL desconhecida', () => {
   const { history } = renderWithRouter(<App />);
-  console.log(history);
   act(() => history.push('/Busca'));
   const notFound = screen.getByRole('heading', {
     name: /page requested not found/i,
