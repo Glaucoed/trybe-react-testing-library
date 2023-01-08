@@ -48,7 +48,7 @@ Tecnologias aplicadas no projeto
 Clone o repositório: 
 
 ```
-git clone git@github.com:Glaucoed/trybe-unit-tests.git
+git clone git@github.com:Glaucoed/trybe-react-testing-library.git
 ```
 Instale as dependências do projeto:
 ```
